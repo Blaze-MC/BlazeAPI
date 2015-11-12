@@ -22,10 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-package info.BlazeMC.BlazeAPI.Event;
+package info.BlazeMC.BlazeAPI.Command;
 
-public interface Cancellable
+public interface CommandSender
 {
-    public boolean isCancelled();
-    public void setCancelled(boolean cancel);
+	public boolean isPlayer();
 }
